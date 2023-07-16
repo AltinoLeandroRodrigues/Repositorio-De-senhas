@@ -11,8 +11,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-right: 120px; */
-    margin-top: 54px;
+    margin: 54px auto auto auto;
 }
 
 .tabela_legenda {
@@ -116,3 +115,51 @@ option {
     transform: scale(1.2);
     color: white;
 }
+
+
+
+
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(20, 130, 247);
+    padding: 30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    font-size: 19px;
+    margin-left: 25px;
+    transition: color, 1s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.43);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(20, 130, 247);
+    padding: 20px;
+    margin-top: 80px;
+
+}
+ 
