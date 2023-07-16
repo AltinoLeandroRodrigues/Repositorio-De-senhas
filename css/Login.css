@@ -71,7 +71,68 @@ input::placeholder{
     text-decoration: underline;
 }
 
+#ver {
+    width: 16px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 51px;
+    float: right;
+    display: flex;
+    text-decoration: underline;
+    color: rgb(0, 63, 139);
+    position: absolute;
+    margin-left: 15em;
+}
 
+#oculto {
+    display: none;
+    width: 16px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 51px;
+    float: right;
+    text-decoration: underline;
+    color: rgb(0, 63, 139);
+    position: absolute;
+    margin-left: 15em;
+}
+
+ 
+
+
+ 
+header {
+    background-color: rgb(20, 130, 247);
+    padding: 30px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    font-size: 19px;
+    margin-left: 25px;
+    transition: color, 1s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.43);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(20, 130, 247);
+    padding: 20px;
+    margin-top: 166px;
+}
 
 
 

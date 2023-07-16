@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Login </title>
     <link rel="stylesheet" href="css/Login.css">
-    <link rel="stylesheet" href="css/header-footer.css">
     <link rel="shortcut icon" href="Imagens/email-icon-jpg-27.jpg" type="image/x-icon">
     <style>
         
@@ -27,7 +26,11 @@
             <form action="Users.html" method="post">
                 <input type="number" name="numero" id="numero" placeholder="Numero" required><br><br>
                 <hr>
-                <input type="password" name="senha" id="senha" placeholder=" senha" required><br> <br>
+                <div style="display: flex; justify-content: center;">
+                   <input type="password" name="senha" id="senha" placeholder=" senha" required>
+                    <i class="fa-solid fa-eye" id="ver" onclick="ver()"></i>
+                    <i class="fa-solid fa-eye-slash" id="oculto" onclick="ver()"></i>  
+                  </div><br>  
                 <hr>
 
 
@@ -40,6 +43,20 @@
     <footer>
         <p> copyright &copy; Altno Leandro, António Miguel Todos os Direitos Resevdos  </p>
     </footer>
+
+
+
+
+
+
+
+    <script src="script.js">
+
+    </script>
+  
+    <script src="imagens/js/all.min.js"></script>
+    <script src="imagens/js/font"></script>
+    </script>
 </body>
 
 </html>

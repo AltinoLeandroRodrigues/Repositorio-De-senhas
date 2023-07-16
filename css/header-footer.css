@@ -17,7 +17,7 @@ nav{
 nav a {
     color: white;
     font-size: 19px;
-    margin-left: 10px;
+    margin-left: 25px;
     transition: color, 1s;
     text-decoration: none;
 }
