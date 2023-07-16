@@ -9,13 +9,13 @@ function ver(){
     
     if (input_type == "password") {
         password.setAttribute("type","text");
-        visualizar.style. display="none"; 
-        n_visualizar.style.display="flex";
+        visualizar.style. display="flex"; 
+        n_visualizar.style.display="none";
          
 
     } else {
         password.setAttribute("type","password");
-        visualizar.style. display="flex"; 
-        n_visualizar.style.display="none";    
+        visualizar.style. display="none"; 
+        n_visualizar.style.display="flex";    
     }
 }

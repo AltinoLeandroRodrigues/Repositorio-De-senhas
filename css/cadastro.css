@@ -53,7 +53,7 @@ input {
     width: 16px;
     height: 30px;
     cursor: pointer;
-    margin-top: 6px;
+    margin-top: 3px;
     float: right;
     display: flex;
     text-decoration: underline;
@@ -67,7 +67,7 @@ input {
     width: 16px;
     height: 30px;
     cursor: pointer;
-    margin-top: 6px;
+    margin-top: 3px;
     float: right;
     text-decoration: underline;
     color: rgb(0, 63, 139);
@@ -94,7 +94,7 @@ select {
 
 option {
     font-size: 18px;
-    background-color: #ddd;
+    background-color: white;
 }
 
 #Cadastrar, .enviar {
@@ -112,7 +112,8 @@ option {
 
 #Cadastrar:hover {
     background-color: rgb(11, 50, 25);
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
+    transform: translateY(-10%);
     color: white;
 }
 

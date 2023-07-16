@@ -4,7 +4,8 @@
 }
 
 body {
-    background-color: #ddd;
+    background-image: url(esqueceu1.jpg);
+    background-size: cover;
     background-repeat: repeat;
 }
 
@@ -13,7 +14,6 @@ body {
 main {
     display: flex;
     height: 660px;
-    background-image: url('imagem7.avif');
     background-size: cover;
     background-repeat: repeat;
     justify-content: center;
