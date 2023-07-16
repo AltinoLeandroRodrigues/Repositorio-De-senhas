@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.div_cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-right: 120px; */
+    margin-top: 54px;
+}
+
+.tabela_legenda {
+    background-color: #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px double black;
+    color: black;
+}
+
+.legenda {
+    margin: auto;
+    font-size: 20px;
+}
+
+.formulario_cadastro {
+    margin: auto;
+}
+
+input {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    height: 30px;
+}
+
+#foto {
+    border: none;
+}
+
+#ver {
+    width: 16px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 6px;
+    float: right;
+    display: flex;
+    text-decoration: underline;
+    color: rgb(0, 63, 139);
+    position: absolute;
+    margin-left: 17em;
+}
+
+#oculto {
+    display: none;
+}
+
+ /* #senha:focus~#ver{
+     display: flex; 
+}   */
+
+
+
+select {
+    width: 300px;
+    background-color: transparent;
+    border-radius: 2px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid dashed black;
+    outline: none;
+
+}
+
+option {
+    font-size: 18px;
+    background-color: #ddd;
+}
+
+#Cadastrar, .enviar {
+    border: 1px solid transparent;
+    background-color: #063;
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    margin-left: 55px;
+    transition: transform, 1s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#Cadastrar:hover {
+    background-color: rgb(11, 50, 25);
+    transform: scale(1.2);
+    color: white;
+}
