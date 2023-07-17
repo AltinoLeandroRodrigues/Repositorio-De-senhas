@@ -4,9 +4,10 @@
 }
 
 body {
-    background-image: url(esqueceu1.jpg);
+    background-image: url(esqueceu.jpg);
     background-size: cover;
-    background-repeat: repeat;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
 
