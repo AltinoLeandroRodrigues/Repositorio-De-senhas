@@ -62,4 +62,5 @@ input{
     width: 60px;
     height: 25px;
     border-radius: 5px;
+    cursor: pointer;
 }
