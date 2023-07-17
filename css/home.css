@@ -75,4 +75,11 @@ footer{
     padding: 40px;
     color: white;
 }
+h3{
+    float: right;
+}
+ p{
+    text-align: center;
+    float: right;
+}  
  
