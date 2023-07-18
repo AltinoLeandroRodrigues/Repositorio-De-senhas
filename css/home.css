@@ -4,10 +4,11 @@
 }
 
 body {
-    background-image: url(imagem2.jpg);
+    background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54587.avif);
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -57,17 +58,32 @@ div {
 
 
 }
+div button{
+    background-image: radial-gradient(circle,#0272BA, #014181);
+    width: 150px;
+    outline: none;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid white;
+    transition: background-image, 2s;
+}
+div button:hover{
+    background-image: radial-gradient(circle,  #014181,#0272BA);
+    /* transform: scale(1.2); */
+}
 
 div a {
-    margin-top: 20%;
-    text-decoration: none;
-    background-color: white;
-    margin-left: 20px;
-    padding: 10px 30px 10px 30px;
+    text-decoration: none; 
     text-align: center;
     color: black;
     border-radius: 10px;
-}
+    width: 100%;
+    color: white;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    font-weight: bolder;
+}   
 
 footer{
     background-color:  rgba(0, 0, 0, 0.765);
@@ -76,7 +92,7 @@ footer{
     color: white;
 }
 h3{
-    float: right;
+     text-align: center;
 }
  p{
     text-align: center;

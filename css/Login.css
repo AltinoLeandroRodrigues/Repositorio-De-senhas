@@ -52,6 +52,7 @@ h1 {
 input::placeholder {
     font-size: 20px;
 }
+ 
 
 
 .Entrar {
@@ -61,7 +62,7 @@ input::placeholder {
     height: 40px;
     font-size: 20px;
     color: white;
-    transition: transform, 1s;
+    transition:transform-scale ,1s;
     border-radius: 10px;
 }
 
