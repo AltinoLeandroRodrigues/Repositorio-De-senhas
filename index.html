@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/modal.css">
 </head>
 
-<body>
+<body id="corpo">
     <header>
         <nav>
             <figure><img src="Imagens/icone-bloqueado-isolado-na-ilustracao-vetorial-de-fundo-branco_230920-1643.avif"
@@ -21,11 +21,10 @@
 
 
 
-    <div class="div_form" id="forma">
-        <h2> Login </h2>
-        <form action="Users.html" method="post">
-            <i class="fa-solid fa-times" style="position: absolute; color: red; margin-left: 220px; cursor: pointer;" id="fechar"
-                onclick="fechar()"></i>
+    <div class="div_form"> 
+        <form action="Users.html" method="post"id="forma">
+            <i class="fa-solid fa-times" style="position: absolute; padding: 5px; margin-left: 220px; cursor: pointer; top: 0; right: 0;"  id="fechar"
+                onclick="fechar()" title="Fechar"></i>
 
             <input type="number" name="numero" id="numero" placeholder="Numero" required>
             <hr>
@@ -43,16 +42,9 @@
     </div>
 
 
-
-
-
-
-
-
-
     <main>
         <div>
-            <button> <a href="#" id="Login" onclick="Login()"> Entrar</a></button>
+            <button> <a href="#" id="Login"> Entrar</a></button>
             <button><a href="Tela-de-cadastro.html"> Cadastrar </a></button>
         </div>
     </main>
@@ -60,8 +52,8 @@
 
 
     <footer>
-        <h3 > Imformações do programador </h3><br><br>
-       <marquee behavior="1" direction="">
+        <h3 > Imformações do programador </h3><br> 
+       <marquee behavior="0" direction="">
         <p style="margin-right: 48px;"> <i class="fa-solid fa-user"></i> Altino Lendro Rodriguês</p>
 
         <p style="margin-right: 37px;"> <i class="fa-solid fa-phone"></i> 927 292 912/ 958 230 034 </p>
