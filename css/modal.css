@@ -17,8 +17,14 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-color: rgba(0, 0,0,0.7);    
+    background-color: rgba(0, 0,0,0.7);
+    animation: animate;
+    animation-duration: 1000ms;    
      
+}
+@keyframes animate{
+    from{ opacity: 1;}
+    from{ opacity: 0;}
 }
 
 .primeira_modal form {
