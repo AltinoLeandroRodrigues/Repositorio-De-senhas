@@ -15,7 +15,7 @@ header {
     background-color: rgba(0, 0, 0, 0.765);
     padding: 15px;
 }
-h1 {
+main h1 {
     color: white;
     text-align: center;
     font-size: 3vw;

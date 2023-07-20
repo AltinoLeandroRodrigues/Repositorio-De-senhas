@@ -19,3 +19,21 @@ function ver(){
         n_visualizar.style.display="flex";    
     }
 }
+
+
+// modal
+
+
+function Primeira_ação(){
+    
+   let modal= document.querySelector('.primeira_modal');
+
+    modal.style.display="flex";
+}
+function fechar(){
+    
+   let modal= document.querySelector('.primeira_modal');
+
+    modal.style.display="none";
+}
+ 
