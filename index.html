@@ -76,13 +76,14 @@
         <form action="Users.html" method="post" id="forma">
             <i class="fa-solid fa-times"
                 id="fechar" onclick="fechar()" title="Fechar"></i>
+             <h1> Login </h1>   
 
             <input type="number" name="numero" id="numero" placeholder="Numero" required>
             <hr>
             <div style="display: flex; justify-content: center;">
                 <input type="password" name="senha" id="senha" placeholder=" senha" required>
                 <i class="fa-solid fa-eye" id="ver" onclick="ver()"></i>
-                <i class="fa-solid fa-eye-slash" id="oculto" onclick="oculto()"></i>
+                <i class="fa-solid fa-eye-slash" id="oculto" onclick="ver()"></i>
             </div>
             <hr>
 
@@ -112,9 +113,10 @@
             <input type="email" name="email" id="email"><br>
             
             <label for="password"> Senha </label><br>
-            <input type="password" name="senha" id="senha"><br>
-            <i class="fa-solid fa-eye" id="ver" onclick="ver()"></i>
-            <i class="fa-solid fa-eye-slash" id="oculto" onclick="ver()"></i>
+            <input type="password" name="senhas" id="palavra-passe"><br>
+            <i class="fa-solid fa-eye" id="ver2" onclick="ver2()"></i>
+
+            <i class="fa-solid fa-eye-slash" id="oculto2" onclick="ver2()"></i>
             
  
             <label for="password"> Confirmar senha </label><br>

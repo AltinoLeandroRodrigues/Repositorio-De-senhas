@@ -10,8 +10,7 @@ function ver(){
     if (input_type == "password") {
         password.setAttribute("type","text");
         visualizar.style. display="flex"; 
-        n_visualizar.style.display="none";
-         
+        n_visualizar.style.display="none";    
 
     } else {
         password.setAttribute("type","password");
@@ -20,20 +19,28 @@ function ver(){
     }
 }
 
+ 
+function ver2(){
+    let visualizar = document.getElementById('ver2');
+    let password = document.getElementById('palavra-passe');
+    let n_visualizar = document.getElementById('oculto2');
+     
 
-// modal
-
-
-function Primeira_ação(){
+   let input_type = password.getAttribute("type")
     
-   let modal= document.querySelector('.primeira_modal');
+    if (input_type == "password") {
+        password.setAttribute("type","text");
+        visualizar.style. display="flex"; 
+        n_visualizar.style.display="none";    
 
-    modal.style.display="flex";
+    } else {
+        password.setAttribute("type","password");
+        visualizar.style. display="none"; 
+        n_visualizar.style.display="flex";    
+    }
 }
-function fechar(){
-    
-   let modal= document.querySelector('.primeira_modal');
 
-    modal.style.display="none";
-}
+ 
+
+ 
  

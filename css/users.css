@@ -30,6 +30,8 @@ th {
     border: 0px solid black;
     padding: 17px;
     color: white;
+    text-align: center;
+    margin: auto;
 
 }
 
@@ -117,7 +119,7 @@ footer {
     justify-content: left;
     background-color: rgb(20, 130, 247);
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 35vh;
     color: white;
 }
  

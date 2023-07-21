@@ -65,7 +65,7 @@
  #fechar {
      position: absolute;
      padding: 5px;
-     margin-left: 300px;
+     margin-left:0px;
      cursor: pointer;
      top: 0;
      right: 0;
@@ -108,17 +108,23 @@
 } */
 
 
+ .primeira_modal h1 {
+    color: white;
+    position: absolute;
+    top:-200px;
+    text-align: center;
+ }
  .primeira_modal #ver {
      width: 16px;
      height: 30px;
      cursor: pointer;
-     margin-top: -0px;
+     margin-top: 1px;
      float: right;
      display: flex;
      text-decoration: underline;
      color: rgb(0, 63, 139);
      position: absolute;
-     margin-left: 14em;
+     margin-left: 13.5em;
  }
 
  .primeira_modal #oculto {
@@ -126,10 +132,10 @@
      width: 16px;
      height: 30px;
      cursor: pointer;
-     margin-top: -0px;
+     margin-top: 1px;
      float: right;
      text-decoration: underline;
      color: rgb(0, 63, 139);
      position: absolute;
-     margin-left: 14em;
+     margin-left: 13.5em;
  }
